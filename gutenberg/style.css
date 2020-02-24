@@ -1,0 +1,34 @@
+p {
+	text-align: justify;
+	margin-top: .2em;
+	margin-bottom: .2em;
+	text-indent: 2em;
+	display: block;
+}
+
+h1 {
+	font-family: "English Gothic, 17th c.", "Charlemagne Std", Times, serif;
+}
+
+h2,div.chapter h3{
+	font-family: Georgia, Times, serif;
+	border: 6px double black;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	text-align: center;
+}
+
+.toc,table { font-style: italic; margin-left: 10%; margin-bottom: .75em;}
+
+pre { font-style: italic; font-size: 90%; margin-left: 10%;}
+
+div.fig { display:block; margin:0 auto; text-align:center; }
+
+/* Background Image: Author: Vasili Hartikainen, License: "Free License", URL: https://tiled-bg.blogspot.com/2014/06/seamless-textured-paper-background.html */
+body {
+	background-image: url("images/seamless-textured-paper-background.jpg");
+	margin: 8%;
+	margin-left: 20%;
+	margin-right: 20%;
+}

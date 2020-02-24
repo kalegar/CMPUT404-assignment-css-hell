@@ -1,0 +1,141 @@
+h1 {
+	text-align: center;
+	font-family: Georgia, Times, serif;
+	font-size: 5em;
+	color: white;
+	text-shadow: 2px 2px 2px black;
+}
+
+h2 {
+	margin-left: 1em;
+	font-family: Georgia;
+	padding-top: 1em;
+}
+
+.side_menu ul {
+	
+}
+
+.side_menu h2 {
+	padding: 0;
+	text-align: center;
+}
+
+.side_menu li {
+	font-family: Georgia;
+	padding-bottom: 1em;
+}
+
+p {
+	font-family: Georgia;
+	margin-left: 1em;
+}
+
+div.header {
+	border-bottom: 2px solid black;
+	background-image: linear-gradient(to right,#192a56,#273c75);
+}
+
+div.content {
+	padding-bottom: 1em;
+	padding-top: 1em;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+div.about, div.history, div.skills{
+	box-shadow: 0 0 2px;
+	margin-bottom: 1em;
+	margin-right: 30%;
+}
+
+div.about {
+	height: 18em;
+}
+
+img {
+	border: 2px solid gray;
+	float: left;
+	display: block;
+	height: auto;
+	width: auto;
+	max-height: 250px;
+	margin: 1.5%;
+}
+
+div.history {
+	height: 20em;
+}
+
+.history img {
+	float: right;
+}
+
+div.skills {
+	height: 20em;
+}
+
+div.footer {
+}
+
+div.header_box {
+	height: 3em;
+	background-color: #ee5253;
+}
+
+/* Navbar Author: W3Schools License: Unlisted URL: https://www.w3schools.com/css/css_navbar.asp*/
+ul.menu {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #ee5253;
+	border-top: 2px solid black;
+	
+}
+
+.menu li {
+	float: left;
+}
+
+.menu li a {
+	display: block;
+	text-align: center;
+	padding: 0.5em;
+	font-family: Georgia;
+	font-size: 1.5em;
+	color: white;
+	text-shadow: 2px 2px 2px black;
+	text-decoration: none;
+}
+
+.menu li a.active {
+	font-weight: bold;
+	margin-left: 2em;
+}
+
+div.side_menu {
+	background-color: #f5f6fa;
+	float: right;
+	margin-top: 1.2em;
+	box-shadow: 0 0 2px;
+	margin-bottom: 1em;
+	height: 58em;
+	padding-right: 1em;
+	padding-left: 0;
+	max-width: 20em;
+	overflow: wrap;
+}
+
+div.main {
+	
+	background-color: white;
+	margin: auto;
+	margin-top: 1%;
+	box-shadow: 0 0 10px 5px;
+	max-width: 1500px;
+}
+
+body {
+	background-color: #333;
+}

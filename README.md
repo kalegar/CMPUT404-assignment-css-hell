@@ -1,6 +1,19 @@
 Assignment: CSS Hell
 ====================
 
+Part 1:
+=======
+All gutenberg HTML files had their header style tags removed and replaced with a link to my custom stylesheet:
+'''HTML
+<link rel="stylesheet" type="text/css" href="style.css">
+'''
+
+Acknowledgements:
+* Background image file: Author: Vasili Hartikainen, License: "Free License", URL: https://tiled-bg.blogspot.com/2014/06/seamless-textured-paper-background.html
+
+Part 2:
+=======
+
 You will skin 3 project gutenberg stories with custom CSS.
 
 You will skin 2 versions of a possible professional homepage for your
